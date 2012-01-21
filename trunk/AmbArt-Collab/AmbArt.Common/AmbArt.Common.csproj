@@ -75,7 +75,6 @@
     <Content Include="Features\AmbArt.Common.SiteCollection\AmbArt.Common.SiteCollection.Template.xml">
       <DependentUpon>AmbArt.Common.SiteCollection.feature</DependentUpon>
     </Content>
-    <Content Include="SP\Modules\AmbArt.Common.Masterpages\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
