@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="AmbArt.Tagging.ContenutiCorrelati, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">AmbArt Contenuti Correlati</property>
+        <property name="Description" type="string">Visualizza i contenuti correlati a quello corrente</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

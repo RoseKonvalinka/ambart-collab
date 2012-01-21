@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="f218dd62-69b0-455b-866b-cd772097303d" solutionId="f218dd62-69b0-455b-866b-cd772097303d" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="AmbArt.Tagging">
+    <features>
+        <featureReference itemId="76fcfcb5-9e6a-47bb-afa7-c4e4bc8813f4" />
+    </features>
+</package>
