@@ -53,6 +53,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\AmbArt.Common.SiteCollection\AmbArt.Common.SiteCollection.feature">
+      <FeatureId>{7568972e-4b94-4c42-b5d8-68bca33b55d7}</FeatureId>
+    </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
       <PackageId>{0324371b-27f8-4e0a-9a87-af4d13400242}</PackageId>
@@ -60,9 +63,19 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="SP\Modules\AmbArt.Common.Masterpages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{81a42793-5b4a-4fdc-b9be-99341c45b751}</SharePointProjectItemId>
+    </None>
+    <None Include="SP\Modules\AmbArt.Common.Masterpages\v4_MyCompany.master" />
+    <None Include="SP\Modules\AmbArt.Common.Masterpages\v4_SocialNetwork.master" />
+    <None Include="SP\Modules\AmbArt.Common.Masterpages\v4_Tags.master" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Features\" />
+    <Content Include="Features\AmbArt.Common.SiteCollection\AmbArt.Common.SiteCollection.Template.xml">
+      <DependentUpon>AmbArt.Common.SiteCollection.feature</DependentUpon>
+    </Content>
+    <Content Include="SP\Modules\AmbArt.Common.Masterpages\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
