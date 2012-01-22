@@ -6,4 +6,4 @@ Questa soluzione contiene gli elementi di personalizzazione dell'intero sito.
 
 
 = Details =
-[[Look & feel]]
+[Look & feel]
