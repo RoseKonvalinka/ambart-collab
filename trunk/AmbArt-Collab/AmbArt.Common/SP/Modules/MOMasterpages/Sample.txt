@@ -1,0 +1,5 @@
+﻿File segnaposto per il modulo di SharePoint.
+
+Un modulo contiene file inclusi in un'applicazione di SharePoint quando questa viene distribuita.
+
+Per ulteriori informazioni, cercare il termine modulo nella Guida.
