@@ -1,0 +1,9 @@
+#summary Indice dei componenti di personalizzazione dell'intero sito.
+
+= Introduction =
+
+Questa soluzione contiene gli elementi di personalizzazione dell'intero sito.
+
+
+= Details =
+[[Look & feel]]
