@@ -65,7 +65,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="SP\Modules\" />
+    <Folder Include="SP\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Features\AmbArt.Common.SiteCollection\AmbArt.Common.SiteCollection.Template.xml">
