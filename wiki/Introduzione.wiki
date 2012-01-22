@@ -6,4 +6,4 @@ Questa soluzione contiene gli elementi di personalizzazione dell'intero sito.
 
 
 = Dettagli =
-Pagine del[LookAndFeel Look & Feel]
+Pagine del [LookAndFeel Look & Feel]
