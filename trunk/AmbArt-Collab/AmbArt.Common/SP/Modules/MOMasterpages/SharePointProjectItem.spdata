@@ -5,5 +5,8 @@
     <ProjectItemFile Source="..\MOMasterpages\v4_SocialNetwork.master" Target="MOMasterpages\" Type="ElementFile" />
     <ProjectItemFile Source="..\MOMasterpages\v4_Tags.master" Target="MOMasterpages\" Type="ElementFile" />
     <ProjectItemFile Source="..\MOMasterpages\v4_MyCompany.master" Target="MOMasterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="v4_MyCompany.master" Target="MOMasterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="v4_SocialNetwork.master" Target="MOMasterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="v4_Tags.master" Target="MOMasterpages\" Type="ElementFile" />
   </Files>
 </ProjectItem>
