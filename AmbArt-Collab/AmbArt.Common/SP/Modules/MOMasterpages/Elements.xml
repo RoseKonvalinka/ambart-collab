@@ -11,7 +11,7 @@
     </File>
     <File Url="v4_MyCompany.master" Type="GhostableInLibrary">
       <Property Name="ContentType" Value="Publishing Master Page" />
-      <Property Name="MasterPageDescription" Value="AmbArt MyCompany master page." />
+      <Property Name="MasterPageDescription" Value="AmbArt Company master page." />
     </File>
-  </Module>
+</Module>
 </Elements>
