@@ -1,11 +1,11 @@
 #summary Descrizione delle componenti del 'look and feel'.
 
-= Introduction =
+= Introduzione =
 
-Add your content here.
+Componenti che definiscono il 'Look & Feel'
 
 
-= Details =
+= Dettagli=
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
