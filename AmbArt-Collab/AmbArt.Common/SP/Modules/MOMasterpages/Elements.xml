@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="MasterPages" Url="_catalogs/masterpage" Path="Masterpages" RootWebOnly="TRUE">
-    <File Url="v4_SocialNetwork.master" Type="GhostableInLibrary">
+    <File Url="AmbArt.SocialNetwork.master" Type="GhostableInLibrary">
       <Property Name="ContentType" Value="Publishing Master Page" />
       <Property Name="MasterPageDescription" Value="AmbArt Social Network master page." />
     </File>
-    <File Url="v4_Tags.master" Type="GhostableInLibrary">
+    <File Url="AmbArt.Tags.master" Type="GhostableInLibrary">
       <Property Name="ContentType" Value="Publishing Master Page" />
       <Property Name="MasterPageDescription" Value="AmbArt Tags master page." />
     </File>
-    <File Url="v4_MyCompany.master" Type="GhostableInLibrary">
+    <File Url="AmbArt.MyCompany.master" Type="GhostableInLibrary">
       <Property Name="ContentType" Value="Publishing Master Page" />
       <Property Name="MasterPageDescription" Value="AmbArt Company master page." />
     </File>
