@@ -66,9 +66,9 @@
     <None Include="SP\Modules\MOMasterpages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{4545bede-45d2-4406-8811-29eac4f7f51f}</SharePointProjectItemId>
     </None>
-    <None Include="SP\Modules\MOMasterpages\v4_MyCompany.master" />
-    <None Include="SP\Modules\MOMasterpages\v4_SocialNetwork.master" />
-    <None Include="SP\Modules\MOMasterpages\v4_Tags.master" />
+    <None Include="SP\Modules\MOMasterpages\AmbArt.MyCompany.master" />
+    <None Include="SP\Modules\MOMasterpages\AmbArt.SocialNetwork.master" />
+    <None Include="SP\Modules\MOMasterpages\AmbArt.Tags.master" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
