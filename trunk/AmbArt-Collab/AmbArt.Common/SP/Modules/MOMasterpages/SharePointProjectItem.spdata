@@ -2,9 +2,6 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Masterpages\" Type="ElementManifest" />
-    <ProjectItemFile Source="..\MOMasterpages\v4_SocialNetwork.master" Target="MOMasterpages\" Type="ElementFile" />
-    <ProjectItemFile Source="..\MOMasterpages\v4_Tags.master" Target="MOMasterpages\" Type="ElementFile" />
-    <ProjectItemFile Source="..\MOMasterpages\v4_MyCompany.master" Target="MOMasterpages\" Type="ElementFile" />
     <ProjectItemFile Source="AmbArt.MyCompany.master" Target="Masterpages\" Type="ElementFile" />
     <ProjectItemFile Source="AmbArt.SocialNetwork.master" Target="Masterpages\" Type="ElementFile" />
     <ProjectItemFile Source="AmbArt.Tags.master" Target="Masterpages\" Type="ElementFile" />
