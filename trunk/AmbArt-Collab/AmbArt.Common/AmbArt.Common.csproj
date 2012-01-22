@@ -63,14 +63,19 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="SP\Modules\MOMasterpages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4545bede-45d2-4406-8811-29eac4f7f51f}</SharePointProjectItemId>
+    </None>
+    <None Include="SP\Modules\MOMasterpages\v4_MyCompany.master" />
+    <None Include="SP\Modules\MOMasterpages\v4_SocialNetwork.master" />
+    <None Include="SP\Modules\MOMasterpages\v4_Tags.master" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SP\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Features\AmbArt.Common.SiteCollection\AmbArt.Common.SiteCollection.Template.xml">
       <DependentUpon>AmbArt.Common.SiteCollection.feature</DependentUpon>
     </Content>
+    <Content Include="SP\Modules\MOMasterpages\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
