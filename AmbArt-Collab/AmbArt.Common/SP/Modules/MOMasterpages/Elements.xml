@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <Module Name="MasterPages" Url="_catalogs/masterpage" Path="MOMasterpages" RootWebOnly="TRUE">
+  <Module Name="MasterPages" Url="_catalogs/masterpage" Path="Masterpages" RootWebOnly="TRUE">
     <File Url="v4_SocialNetwork.master" Type="GhostableInLibrary">
       <Property Name="ContentType" Value="Publishing Master Page" />
       <Property Name="MasterPageDescription" Value="AmbArt Social Network master page." />
