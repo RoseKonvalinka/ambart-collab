@@ -63,14 +63,10 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="SP\Modules\AmbArt.Common.Masterpages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{81a42793-5b4a-4fdc-b9be-99341c45b751}</SharePointProjectItemId>
-    </None>
-    <None Include="SP\Modules\AmbArt.Common.Masterpages\v4_MyCompany.master" />
-    <None Include="SP\Modules\AmbArt.Common.Masterpages\v4_SocialNetwork.master" />
-    <None Include="SP\Modules\AmbArt.Common.Masterpages\v4_Tags.master" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="SP\Modules\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Features\AmbArt.Common.SiteCollection\AmbArt.Common.SiteCollection.Template.xml">
       <DependentUpon>AmbArt.Common.SiteCollection.feature</DependentUpon>
