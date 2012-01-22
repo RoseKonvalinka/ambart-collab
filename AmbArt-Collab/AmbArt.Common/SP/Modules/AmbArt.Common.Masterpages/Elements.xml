@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="AmbArt.Common.Masterpages">
+    <File Path="AmbArt.Common.Masterpages\Sample.txt" Url="AmbArt.Common.Masterpages/Sample.txt" />
+  </Module>
+</Elements>
