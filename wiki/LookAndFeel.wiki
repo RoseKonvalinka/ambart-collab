@@ -9,12 +9,12 @@ Componenti che definiscono il 'Look & Feel'
 
   * WebTemplate (non credo voi ne abbiate sviluppati di custom)
   * Master Pages
-  * Page Layouts (non credo ne abbiate sviluppato)
+  * Page Layouts (non credo ne abbiate sviluppato) NB abbiamo modificato il layout delle pagine wiki che sta sul file system per inserire la wp "contenuti correlati". File: wkpstd.aspx , in: Web Server Extensions > 14 > TEMPLATE > Document Templates.
   * Stylesheets:
     * CSS
       * Themable
       * non Themable
     * XLS
-  * Javascript (jQuery, per esempio)
+  * Javascript (jQuery, per esempio) NB (per bloccare lo scroll del ribbon) abbiamo modificato il file jscript
   * Pezzi html (snippets ?) 
   * Immagini
