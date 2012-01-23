@@ -10,5 +10,9 @@ Componenti che definiscono il 'Look & Feel'
   * WebTemplate (non credo voi ne abbiate sviluppati di custom)
   * Master Pages
   * Page Layouts (non credo ne abbiate sviluppato)
-  * Stylesheets
-  * Javascript (jQuery, per esempio) 
+  * Stylesheets:
+    - CSS
+    - XLS
+  * Javascript (jQuery, per esempio)
+  * Pezzi html (snippets ?) 
+  * Immagini
