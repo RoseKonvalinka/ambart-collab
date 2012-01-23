@@ -7,8 +7,8 @@ Componenti che definiscono il 'Look & Feel'
 
 = Dettagli=
 
-  *WebTemplate (non credo voi ne abbiate sviluppati di custom)
-  *Master Pages
-  *Page Layouts (non credo ne abbiate sviluppato)
-  *Stylesheets
-  *Javascript (jQuery, per esempio) 
+  * WebTemplate (non credo voi ne abbiate sviluppati di custom)
+  * Master Pages
+  * Page Layouts (non credo ne abbiate sviluppato)
+  * Stylesheets
+  * Javascript (jQuery, per esempio) 
