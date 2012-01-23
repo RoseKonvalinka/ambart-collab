@@ -15,6 +15,6 @@ Componenti che definiscono il 'Look & Feel'
       * Themable
       * non Themable
     * XLS
-  * Javascript (jQuery, per esempio) NB (per bloccare lo scroll del ribbon) abbiamo modificato il file jscript
+  * Javascript (jQuery, per esempio) NB (per bloccare lo scroll del ribbon) abbiamo modificato il file jscript INIT.js in: Web Server Extensions > 14 > Layouts > 1040 (mi pare sia il solo modo x farlo...)
   * Pezzi html (snippets ?) 
   * Immagini
