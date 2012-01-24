@@ -5,5 +5,10 @@
     <ProjectItemFile Source="AmbArt.MyCompany.master" Target="Masterpages\" Type="ElementFile" />
     <ProjectItemFile Source="AmbArt.SocialNetwork.master" Target="Masterpages\" Type="ElementFile" />
     <ProjectItemFile Source="AmbArt.Tags.master" Target="Masterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="AmbArt.Assets.master" Target="MOMasterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="AmbArt.Intranet.master" Target="MOMasterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="AmbArt.Community.master" Target="MOMasterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="AmbArt.Workspaces.master" Target="MOMasterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="mysite_custom.master" Target="MOMasterpages\" Type="ElementFile" />
   </Files>
 </ProjectItem>
