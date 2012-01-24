@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
-    <ProjectItemFile Source="Elements.xml" Target="Masterpages\" Type="ElementManifest" />
-    <ProjectItemFile Source="AmbArt.MyCompany.master" Target="Masterpages\" Type="ElementFile" />
-    <ProjectItemFile Source="AmbArt.SocialNetwork.master" Target="Masterpages\" Type="ElementFile" />
-    <ProjectItemFile Source="AmbArt.Tags.master" Target="Masterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="MOMasterpages\" Type="ElementManifest" />
+    <ProjectItemFile Source="AmbArt.MyCompany.master" Target="MOMasterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="AmbArt.SocialNetwork.master" Target="MOMasterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="AmbArt.Tags.master" Target="MOMasterpages\" Type="ElementFile" />
     <ProjectItemFile Source="AmbArt.Assets.master" Target="MOMasterpages\" Type="ElementFile" />
     <ProjectItemFile Source="AmbArt.Intranet.master" Target="MOMasterpages\" Type="ElementFile" />
     <ProjectItemFile Source="AmbArt.Community.master" Target="MOMasterpages\" Type="ElementFile" />
