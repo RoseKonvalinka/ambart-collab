@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MOPageLayouts" Url="_catalogs/masterpage" Path="MOPageLayouts" RootWebOnly="TRUE">
+    <File Url="PeopleSearchResults.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True">
+      <Property Name="Title" Value="AmbArt People Search Result" />
+      <Property Name="MasterPageDescription" Value="AmbArt People Search Result" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="PublishingAssociatedContentType" Value=";#Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF39;#"/>
+    </File>
+    <File Url="SearchMain.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True">
+      <Property Name="Title" Value="AmbArt Search Page" />
+      <Property Name="MasterPageDescription" Value="AmbArt Search Page" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="PublishingAssociatedContentType" Value=";#Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF39;#"/>
+    </File>
+    <File Url="SearchResults.aspx" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True">
+      <Property Name="Title" Value="AmbArt Search Result" />
+      <Property Name="MasterPageDescription" Value="AmbArt Search Result" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+      <Property Name="PublishingAssociatedContentType" Value=";#Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF39;#"/>
+    </File>
+</Module>
+</Elements>
