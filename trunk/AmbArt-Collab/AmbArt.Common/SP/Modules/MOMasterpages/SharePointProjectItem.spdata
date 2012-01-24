@@ -9,6 +9,6 @@
     <ProjectItemFile Source="AmbArt.Intranet.master" Target="MOMasterpages\" Type="ElementFile" />
     <ProjectItemFile Source="AmbArt.Community.master" Target="MOMasterpages\" Type="ElementFile" />
     <ProjectItemFile Source="AmbArt.Workspaces.master" Target="MOMasterpages\" Type="ElementFile" />
-    <ProjectItemFile Source="mysite_custom.master" Target="MOMasterpages\" Type="ElementFile" />
+    <ProjectItemFile Source="AmbArt.MySite.master" Target="MOMasterpages\" Type="ElementFile" />
   </Files>
 </ProjectItem>
