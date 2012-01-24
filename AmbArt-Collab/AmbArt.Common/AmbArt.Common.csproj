@@ -63,12 +63,20 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="SP\Modules\MOMasterpages\AmbArt.Assets.master" />
+    <None Include="SP\Modules\MOMasterpages\AmbArt.Community.master" />
+    <None Include="SP\Modules\MOMasterpages\AmbArt.Intranet.master" />
+    <None Include="SP\Modules\MOMasterpages\AmbArt.Workspaces.master" />
+    <None Include="SP\Modules\MOMasterpages\AmbArt.MySite.master" />
     <None Include="SP\Modules\MOMasterpages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{4545bede-45d2-4406-8811-29eac4f7f51f}</SharePointProjectItemId>
     </None>
     <None Include="SP\Modules\MOMasterpages\AmbArt.MyCompany.master" />
     <None Include="SP\Modules\MOMasterpages\AmbArt.SocialNetwork.master" />
     <None Include="SP\Modules\MOMasterpages\AmbArt.Tags.master" />
+    <None Include="SP\Modules\MOPageLayouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0d352b27-6c6c-4520-bb13-a95a46122ac7}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -76,6 +84,10 @@
       <DependentUpon>AmbArt.Common.SiteCollection.feature</DependentUpon>
     </Content>
     <Content Include="SP\Modules\MOMasterpages\Elements.xml" />
+    <Content Include="SP\Modules\MOPageLayouts\Elements.xml" />
+    <Content Include="SP\Modules\MOPageLayouts\PeopleSearchResults.aspx" />
+    <Content Include="SP\Modules\MOPageLayouts\SearchMain.aspx" />
+    <Content Include="SP\Modules\MOPageLayouts\SearchResults.aspx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />
