@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="MOStylesheets\" Type="ElementManifest" />
+    <ProjectItemFile Source="Brand_Custom.css" Target="MOStylesheets\" Type="ElementFile" />
+    <ProjectItemFile Source="DocumentiCorrelati.html" Target="MOStylesheets\" Type="ElementFile" />
+    <ProjectItemFile Source="DocumentiCorrelatiPaginaWiki.html" Target="MOStylesheets\" Type="ElementFile" />
+    <ProjectItemFile Source="JoinleaveSetup.js" Target="MOStylesheets\" Type="ElementFile" />
+    <ProjectItemFile Source="main_custom.css" Target="MOStylesheets\" Type="ElementFile" />
+    <ProjectItemFile Source="Main_custom.js" Target="MOStylesheets\" Type="ElementFile" />
+    <ProjectItemFile Source="PopUpWindow_Custom.css" Target="MOStylesheets\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

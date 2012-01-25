@@ -1,0 +1,55 @@
+﻿<div id="TSF_doccorrel_container">
+    <img alt="wait" width="30px" height="30px" src="/_layouts/images/ajax-loader.gif" /></div>
+<script type="text/javascript" src="/_layouts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript">
+    // ---------------------------------------------------
+    // IMPOSTARE false SE INSTALLAZIONE SU VERSIONE SERVER
+    var TSF_SHAREPOINT_FOUNDATION = false;
+    // ---------------------------------------------------
+    function TSF_show_DocCorrel(ajObj, status) {
+        if (status == "success")
+            document.getElementById("TSF_doccorrel_container").innerHTML = ajObj.responseText;
+        else {
+            document.getElementById("TSF_doccorrel_container").innerHTML = "<span></span>";
+        }
+    }
+    function TSF_parseUrl_forID() {
+        var ret = "";
+        var arVar;
+        if (location.search.indexOf("&") > -1) {
+            arVar = location.search.substr(1).split("&");
+        }
+        else arVar = [location.search.substr(1)];
+        for (var i = 0; i < arVar.length; i++) {
+            if (arVar[i].indexOf("ID=") > -1 || arVar[i].indexOf("RootFolder=") > -1) {
+                ret = arVar[i];
+                break;
+            }
+        }
+        return ret;
+    }
+    function TSF_startCorrelati() {
+        if (location.href.indexOf("/_layouts/") < 0) {
+            var aspxPage = TSF_SHAREPOINT_FOUNDATION ? "DocumentiCorrelatiSearch.aspx" : "DocumentiCorrelatiServer.aspx"
+            var TSF_doccorr_pageurl;
+            if (location.search.length > 0)
+                TSF_doccorr_pageurl = "PageUrl=" + location.href.substr(0, location.href.indexOf(location.search));
+            else TSF_doccorr_pageurl = "PageUrl=" + location.href;
+            var TSF_doccorr_query = TSF_parseUrl_forID();
+            var TSF_doccorr_url;
+            if (location.href.indexOf("/Lists/") > 0 && location.href.indexOf("/Forms/") > 0) TSF_doccorr_url = "../../../_layouts/" + aspxPage;
+            else TSF_doccorr_url = "../../_layouts/" + aspxPage;
+            if (TSF_doccorr_query == "") TSF_show_DocCorrel(false);
+            else {
+                $.ajax({
+                    url: TSF_doccorr_url,
+                    type: "GET",
+                    dataType: "html",
+                    data: TSF_doccorr_pageurl + "&" + TSF_doccorr_query,
+                    complete: TSF_show_DocCorrel
+                });
+            }
+        } else TSF_show_DocCorrel(null, "failure")
+    }
+    _spBodyOnLoadFunctionNames.push("TSF_startCorrelati");
+</script>

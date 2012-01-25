@@ -77,6 +77,9 @@
     <None Include="SP\Modules\MOPageLayouts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{0d352b27-6c6c-4520-bb13-a95a46122ac7}</SharePointProjectItemId>
     </None>
+    <None Include="SP\Modules\MOStylesheets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d4b0ecea-b5e9-4b59-9b85-0eaaba86b9e3}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -84,10 +87,22 @@
       <DependentUpon>AmbArt.Common.SiteCollection.feature</DependentUpon>
     </Content>
     <Content Include="SP\Modules\MOMasterpages\Elements.xml" />
-    <Content Include="SP\Modules\MOPageLayouts\Elements.xml" />
-    <Content Include="SP\Modules\MOPageLayouts\PeopleSearchResults.aspx" />
-    <Content Include="SP\Modules\MOPageLayouts\SearchMain.aspx" />
-    <Content Include="SP\Modules\MOPageLayouts\SearchResults.aspx" />
+    <Content Include="SP\Modules\MOPageLayouts\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SP\Modules\MOPageLayouts\AmbArt.PeopleSearchResults.aspx" />
+    <Content Include="SP\Modules\MOPageLayouts\AmbArt.SearchMain.aspx" />
+    <Content Include="SP\Modules\MOPageLayouts\AmbArt.SearchResults.aspx" />
+    <Content Include="SP\Modules\MOStylesheets\Brand_Custom.css" />
+    <Content Include="SP\Modules\MOStylesheets\DocumentiCorrelati.html" />
+    <Content Include="SP\Modules\MOStylesheets\DocumentiCorrelatiPaginaWiki.html" />
+    <Content Include="SP\Modules\MOStylesheets\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SP\Modules\MOStylesheets\JoinleaveSetup.js" />
+    <Content Include="SP\Modules\MOStylesheets\main_custom.css" />
+    <Content Include="SP\Modules\MOStylesheets\Main_custom.js" />
+    <Content Include="SP\Modules\MOStylesheets\PopUpWindow_Custom.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />

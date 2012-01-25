@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MOStylesheets" Url="Style Library" Path="MOStylesheets" RootWebOnly="true" >
+  <File Url="Brand_Custom.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Url="DocumentiCorrelati.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Url="DocumentiCorrelatiPaginaWiki.html" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Url="JoinleaveSetup.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Path="main_custom.css" Url="Themable/main_custom.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Url="Main_custom.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Url="PopUpWindow_Custom.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+</Module>
+</Elements>
