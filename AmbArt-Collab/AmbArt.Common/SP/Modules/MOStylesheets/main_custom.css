@@ -1,0 +1,286 @@
+﻿ /* *** per nascondere il titolo 
+  .s4-title {display:none;} 
+ */
+ 
+.TSF_Tag {
+	display:inline !important;
+} 
+
+.TSF_Evidenza{
+	border:1px #bababa solid;
+	padding:5px;
+	padding-right:40px;
+	background:transparent url('/Style library/Images/inEvidenzaSmall.png') no-repeat scroll right top;
+}
+
+.TSF_Evidenza .TSF-dataTitolo{
+	padding-right:45px
+}
+
+.TSF_Evidenza .ms-WPBody TD, .TSF_Evidenza .ms-PostBody {
+	font-size: 1.2em;
+}
+
+img {
+ border: 0px none;
+ }
+ 
+/** Colonna Destra v4.master **/
+.ms-blogRightZone {
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:0px;
+	height:100%;
+/* [ReplaceColor(themeColor:"Light2")] */ background-color:rgb(241, 241, 241);
+/* [ReplaceColor(themeColor:"Light2-Lightest")] */ border:1px solid #dbddde;
+}
+
+.ms-blogRightZone .ms-WPBody a {
+padding:3px 4px 4px 0px;
+border-width:1px 0px;
+border-style:solid;
+border-color:transparent;
+/* [ReplaceColor(themeColor:"Dark1")] */ color:#3b4f65;
+}
+
+.ms-blogRightZone .ms-WPBody a:visited{
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#b10069;
+text-decoration:none;
+}
+
+.ms-blogRightZone .ms-WPBody a:hover{
+/* [ReplaceColor(themeColor:"Accent1-Darker")] */ color:#44aff6;
+text-decoration:underline;
+}
+
+.ms-blogRightZone .ms-WPBody a:selected{
+/* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
+/* [ReplaceColor(themeColor:"Accent1-Medium")] */ border-color:#91cdf2 !important;
+/* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-top-color:#c6e5f8 !important;
+/* [ReplaceColor(themeColor:"Accent1",themeShade:"0.20")] */ color:#003759 !important;
+}
+
+.ms-blogRightZone .ms-WPHeader{
+/* [ReplaceColor(themeColor:"Light2")] */ background-color:#FFFFFF;
+/* [ReplaceColor(themeColor:"Light2-Lightest")] */ border:1px solid #dbddde;
+}
+
+.ms-blogRightZone .ms-WPHeader a{
+/* [ReplaceColor(themeColor:"Light2")] */ color:#0072bc;
+margin:0px;
+padding:3px 4px 3px 0px;
+border-width:1px 0px;
+border-style:solid;
+border-color:transparent;
+word-wrap:break-word;
+overflow-x:hidden;
+}
+
+
+html,#MSO_ContentTable, #s4-mainarea, #s4-leftpanel{
+	height:100% !important;
+}
+
+
+.TSF_Authors { display:none; }
+
+/** Tag Cloud **/
+ #tagCloud {line-height:18px; text-align:center;}
+ #tagCloud a.TSF_tag6{font-size:7pt; color:#3b4f65}
+ #tagCloud a.TSF_tag5{font-size:8pt; color:#3b4f65}
+ #tagCloud a.TSF_tag4{font-size:9pt; color:#3b4f65}
+ #tagCloud a.TSF_tag3{font-size:10pt; color:#3b4f65}
+ #tagCloud a.TSF_tag2{font-size:11pt; color:#3b4f65}
+ #tagCloud a.TSF_tag1{font-size:12pt; color:#3b4f65}
+
+/** Contenuti Correlati & Query TSF in generale **/
+.TSF_QueryItemShort TD {
+    font-size: 1em;
+}
+
+.TSF_ItemSeparator
+{
+    height:5px;
+    padding-left:10px;
+}
+
+.TSF_ItemIcon{
+	border:0px;
+	background-color:transparent;
+	vertical-align:top;
+	padding-top:0px;
+	padding-left:2px;
+	padding-right:5px;
+	text-align:center;
+}
+
+.ewiki-margin {
+	padding-top:5px;
+	padding-left:16px;
+	background-color:#f1f1f1;
+	border-bottom:1px #bababa solid;
+	padding-bottom:4px;
+}
+
+.s4-specialNavLinkList{
+	border-top-width:0px;
+	border-top-style:none;
+}
+
+/* Pagine Video - Supporto inTSF 2.0 */
+#TSF_Embedded_code {
+	height:60px;
+}
+.TSF_video_player{
+	vertical-align:top;
+}
+.TSF_videoButton {
+	position:absolute;
+ 	z-index:1000;
+ 	cursor:pointer;
+ 	display:block;
+}
+.TSF_videoLink {
+	position:relative;
+	background-color:transparent;
+	vertical-align:bottom;
+}
+.TSF_videoLeft {
+	float:left;
+}
+
+img.TSF_embeddedVideo {
+	cursor:pointer; 
+}
+
+.TSF_videoLinkOuter{
+	background-color:transparent;
+	margin-top:2px;
+	margin-left:3px;
+	margin-right:3px;
+
+	}
+.TSF_videoRight {
+	float:right;
+}
+.TSF_videoPlayerBox {
+	position:relative;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#FFFFFF;
+	vertical-align:bottom;
+	margin:3px;
+}
+
+.TSF_videoPlayerBox .ms-wpContentDivSpace{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.TSF_PlayerObj{
+	padding:3px;
+}
+
+.TSF_Flash_Player{
+	background-color:black !important;
+}
+
+.TSF_videoPlayerBox .ms-WPHeaderTdSelection, .TSF_videoPlayerBox .ms-WPHeaderTdSelSpan, .TSF_videoPlayerControlBox TD{
+	vertical-align:bottom;
+}
+.TSF_videoPlayerControl{
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.TSF_Authors {
+	padding:5px;
+	border-bottom:1px #dbddde solid;
+}
+
+.ms-WPBody TD
+{
+	background-color:transparent;
+}
+
+.ms-WPBody H3
+{
+	font-weight:normal;
+}
+
+.ms-rightblogpost {
+	width:auto;
+}
+
+.ms-blogRightZone, .TSF_RightZone {
+}
+
+.tableborder-col1
+{
+	background-color:transparent;
+}
+
+.ms-dlgOverlay {
+	z-index:1001;
+}
+
+
+/*------------ classi dinamiche ------------------*/
+
+.TSF_HighLight {
+	background-color:yellow;
+}
+
+img.TSF_HighLight {
+	border:thin red solid;
+}
+
+
+/*----------- modifiche per MySites ---------------*/
+
+.ms-profilepicture {
+	TEXT-ALIGN: center; WORD-WRAP: normal
+}
+.ms-profilepicture IMG {
+	BORDER-BOTTOM: #c5c7c9 1px solid; BORDER-LEFT: #c5c7c9 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: rgb(255,255,255); 
+	PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 100; VERTICAL-ALIGN: middle; BORDER-TOP: #c5c7c9 1px solid; 
+	BORDER-RIGHT: #c5c7c9 1px solid; PADDING-TOP: 2px;
+	
+}
+.socialcomment-image DIV {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.ms-largethumbnailimage {
+	/*LINE-HEIGHT: 148px; 
+	WIDTH: 148px*/
+}
+.ms-largethumbnailimage IMG {
+	MAX-WIDTH: 148px
+}
+.ms-smallthumbnailimage {
+	LINE-HEIGHT: 36px; WIDTH: 36px
+}
+.ms-smallthumbnailimage IMG {
+	MAX-WIDTH: 36px;
+	max-height:36px;
+}
+.ms-mediumthumbnailimage {
+	LINE-HEIGHT: 100px; WIDTH: 100px
+}
+.ms-mediumthumbnailimage IMG {
+	MAX-WIDTH: 100px
+}
+.ms-profileimage {
+	BORDER-BOTTOM: #c5c7c9 1px solid; BORDER-LEFT: #c5c7c9 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: #c5c7c9 1px solid; BORDER-RIGHT: #c5c7c9 1px solid; PADDING-TOP: 2px
+}
+
+/** Tag Cloud **/
+ #tagCloud {line-height:18px; text-align:center;}
+ #tagCloud a.CSS_tag6{font-size:7pt; color:#3b4f65}
+ #tagCloud a.CSS_tag5{font-size:8pt; color:#3b4f65}
+ #tagCloud a.CSS_tag4{font-size:9pt; color:#3b4f65}
+ #tagCloud a.CSS_tag3{font-size:10pt; color:#3b4f65}
+ #tagCloud a.CSS_tag2{font-size:11pt; color:#3b4f65}
+ #tagCloud a.CSS_tag1{font-size:12pt; color:#3b4f65}
+
+/** Contenuti Correlati & Query TSF in generale **/
+
+

@@ -1,34 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <Module Name="MasterPages" Url="_catalogs/masterpage" Path="MOMasterpages" RootWebOnly="TRUE">
+  <Module Name="MOMasterpages" Url="_catalogs/masterpage" Path="MOMasterpages" RootWebOnly="TRUE">
     <File Url="AmbArt.SocialNetwork.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True">
-      <Property Name="ContentType" Value="Publishing Master Page" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+      <Property Name="UIVersion" Value="4" />
       <Property Name="MasterPageDescription" Value="AmbArt Social Network master page." />
     </File>
     <File Url="AmbArt.Tags.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True">
-      <Property Name="ContentType" Value="Publishing Master Page" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+      <Property Name="UIVersion" Value="4" />
       <Property Name="MasterPageDescription" Value="AmbArt Tags master page." />
     </File>
     <File Url="AmbArt.MyCompany.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True">
-      <Property Name="ContentType" Value="Publishing Master Page" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+      <Property Name="UIVersion" Value="4" />
       <Property Name="MasterPageDescription" Value="AmbArt Company master page." />
     </File>
     <File Url="AmbArt.Intranet.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True">
-      <Property Name="ContentType" Value="Publishing Master Page" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+      <Property Name="UIVersion" Value="4" />
       <Property Name="MasterPageDescription" Value="AmbArt Intranet master page." />
     </File>
     <File Url="AmbArt.Community.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True">
-      <Property Name="ContentType" Value="Publishing Master Page" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+      <Property Name="UIVersion" Value="4" />
       <Property Name="MasterPageDescription" Value="AmbArt Community master page." />
     </File>
     <File Url="AmbArt.Workspaces.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True">
-      <Property Name="ContentType" Value="Publishing Master Page" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+      <Property Name="UIVersion" Value="4" />
       <Property Name="MasterPageDescription" Value="AmbArt Workspaces master page." />
     </File>
     <File Url="AmbArt.MySite.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True">
-      <Property Name="ContentType" Value="Publishing Master Page" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+      <Property Name="UIVersion" Value="4" />
       <Property Name="MasterPageDescription" Value="AmbArt MySite master page." />
     </File>
-  <File Path="AmbArt.Assets.master" Url="Masterpages/AmbArt.Assets.master" />
+    <File Path="AmbArt.Assets.master" Url="Masterpages/AmbArt.Assets.master">
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+      <Property Name="UIVersion" Value="4" />
+      <Property Name="MasterPageDescription" Value="AmbArt Assets master page." />
+    </File>
 </Module>
 </Elements>

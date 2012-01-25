@@ -1,0 +1,14 @@
+﻿/* Pagina PopUpWindow */
+	
+	
+HTML.ms-dialog #tagCloud {
+	display:none;
+}
+
+HTML.ms-dialog .ms-blogRightZone{
+	display:none;
+}
+
+HTML.ms-dialog .ms-profilepageheader{
+	display:none;
+}
