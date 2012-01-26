@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field ID="{7A72E2E1-BD1A-418C-AF88-A2911B7AF4E9}" Type="TaxonomyFieldType" DisplayName="Tags"
+       SourceID="http://schemas.microsoft.com/sharepoint/v3/fields" ShowField="Term1033"
+       Required="FALSE" EnforceUniqueValues="FALSE" Group="AmbArt Web Pages"
+       StaticName="AmbArtTags" Name="AmbArtTags" />
+
+  <Field ID="{D4124582-3507-4E4A-A186-AE0FF6BD4823}" Type="Note" DisplayName="AmbArtTags_0"
+         StaticName="AmbArtTagsTaxHTField" Name="AmbArtTagsTaxHTField"
+         ShowInViewForms="FALSE" Required="FALSE" Hidden="TRUE" CanToggleHidden="TRUE" />
+
+  <Field ID="{c8da1af1-5a97-4ea9-8055-bfd9ea4e89e1}" Name="AmbArtComments" StaticName="AmbArtComments" DisplayName="Comments"
+   Description="" Group="AmbArt Web Pages" Type="Note" NumLines="6" AppendOnly="TRUE" RichText="TRUE"
+   RichTextMode="[Compatible/FullHtml]" SourceID="http://schemas.microsoft.com/sharepoint/v3/fields"/>
+
+  <!-- ContentType padre: Elemento (0x01) -->
+  <ContentType ID="0x0100f605e073d8614ebf8d7766d4f3824a73"
+               Name="AmbArt.Common - CTVideoElemento"
+               Group="AmbArt - Tipi di contenuto"
+               Description="AmbArt - Tipo contenuto di video con commenti e tags"
+               Inherits="TRUE"
+               Version="0">
+
+    <FieldRefs>
+      <FieldRef ID="{7A72E2E1-BD1A-418C-AF88-A2911B7AF4E9}" Name="AmbArtTags" />
+      <FieldRef ID="{D4124582-3507-4E4A-A186-AE0FF6BD4823}" Name="AmbArtTagsTaxHTField" />
+      <FieldRef ID="{c8da1af1-5a97-4ea9-8055-bfd9ea4e89e1}" Name="AmbArtComments" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
