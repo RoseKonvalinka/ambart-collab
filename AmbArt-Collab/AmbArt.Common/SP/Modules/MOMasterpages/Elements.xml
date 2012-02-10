@@ -36,10 +36,15 @@
       <Property Name="UIVersion" Value="4" />
       <Property Name="MasterPageDescription" Value="AmbArt MySite master page." />
     </File>
-    <File Path="AmbArt.Assets.master" Url="Masterpages/AmbArt.Assets.master">
+    <File Path="AmbArt.Assets.master" Url="AmbArt.Assets.master">
       <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
       <Property Name="UIVersion" Value="4" />
       <Property Name="MasterPageDescription" Value="AmbArt Assets master page." />
     </File>
-</Module>
+<File Path="AmbArt.v5.master" Url="AmbArt.v5.master">
+    <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+    <Property Name="UIVersion" Value="4" />
+    <Property Name="MasterPageDescription" Value="AmbArt HTML5 master page." />
+    </File>
+  </Module>
 </Elements>

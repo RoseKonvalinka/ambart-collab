@@ -63,6 +63,9 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="SP\Content Types\CTVideoElemento\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aed4f44b-6b54-45c7-9f17-9c86d3a0d6e8}</SharePointProjectItemId>
+    </None>
     <None Include="SP\Modules\MOMasterpages\AmbArt.Assets.master" />
     <None Include="SP\Modules\MOMasterpages\AmbArt.Community.master" />
     <None Include="SP\Modules\MOMasterpages\AmbArt.Intranet.master" />
@@ -74,6 +77,7 @@
     <None Include="SP\Modules\MOMasterpages\AmbArt.MyCompany.master" />
     <None Include="SP\Modules\MOMasterpages\AmbArt.SocialNetwork.master" />
     <None Include="SP\Modules\MOMasterpages\AmbArt.Tags.master" />
+    <None Include="SP\Modules\MOMasterpages\AmbArt.v5.master" />
     <None Include="SP\Modules\MOPageLayouts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{0d352b27-6c6c-4520-bb13-a95a46122ac7}</SharePointProjectItemId>
     </None>
@@ -85,6 +89,9 @@
   <ItemGroup>
     <Content Include="Features\AmbArt.Common.SiteCollection\AmbArt.Common.SiteCollection.Template.xml">
       <DependentUpon>AmbArt.Common.SiteCollection.feature</DependentUpon>
+    </Content>
+    <Content Include="SP\Content Types\CTVideoElemento\Elements.xml">
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="SP\Modules\MOMasterpages\Elements.xml" />
     <Content Include="SP\Modules\MOPageLayouts\Elements.xml">
@@ -103,6 +110,11 @@
     <Content Include="SP\Modules\MOStylesheets\main_custom.css" />
     <Content Include="SP\Modules\MOStylesheets\Main_custom.js" />
     <Content Include="SP\Modules\MOStylesheets\PopUpWindow_Custom.css" />
+    <Content Include="SP\Modules\MOStylesheets\v5\i\favicon.ico" />
+    <Content Include="SP\Modules\MOStylesheets\v5\i\search.png" />
+    <Content Include="SP\Modules\MOStylesheets\v5\i\v5.png" />
+    <Content Include="SP\Modules\MOStylesheets\v5\script\v5.js" />
+    <Content Include="SP\Modules\MOStylesheets\v5\v5.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" />

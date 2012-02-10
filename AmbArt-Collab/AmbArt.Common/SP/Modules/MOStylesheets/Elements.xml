@@ -8,5 +8,10 @@
 <File Path="main_custom.css" Url="Themable/main_custom.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
 <File Url="Main_custom.js" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
 <File Url="PopUpWindow_Custom.css" Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Path="v5\v5.css" Url="v5/v5.css"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Path="v5\i\favicon.ico" Url="v5/i/favicon.ico"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Path="v5\i\search.png" Url="v5/i/search.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Path="v5\i\v5.png" Url="v5/i/v5.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
+<File Path="v5\script\v5.js" Url="v5/script/v5.js"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
 </Module>
 </Elements>
