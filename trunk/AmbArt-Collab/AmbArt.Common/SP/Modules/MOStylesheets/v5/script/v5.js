@@ -33,3 +33,9 @@ function FixRibbonAndWorkspaceDimensions(){
     elmWorkspace.style.paddingTop = ribbonHeight + 'px';
   }
 }
+
+// kyleschaeffer.com's Responsive SP2010 (sans HTML5, via @alirobe)// add me to the bottom of v5.js
+// via gist @ http://github.com/alirobe
+
+window.onresize = function () { var w = 800, t = " lt-800 ", h = document.getElementsByTagName("html")[0], cw = window.outerWidth || h.clientWidth; if (cw <= w) { if (h.className.indexOf(t) == -1) { h.className += t } } else { h.className = h.className.replace(/lt-800/g, '').replace(/[\s]{2,}/g, ' '); } }
+window.onresize();
