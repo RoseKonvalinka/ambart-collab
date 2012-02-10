@@ -9,5 +9,10 @@
     <ProjectItemFile Source="main_custom.css" Target="MOStylesheets\" Type="ElementFile" />
     <ProjectItemFile Source="Main_custom.js" Target="MOStylesheets\" Type="ElementFile" />
     <ProjectItemFile Source="PopUpWindow_Custom.css" Target="MOStylesheets\" Type="ElementFile" />
+    <ProjectItemFile Source="v5\v5.css" Target="MOStylesheets\v5\" Type="ElementFile" />
+    <ProjectItemFile Source="v5\i\favicon.ico" Target="MOStylesheets\v5\i\" Type="ElementFile" />
+    <ProjectItemFile Source="v5\i\search.png" Target="MOStylesheets\v5\i\" Type="ElementFile" />
+    <ProjectItemFile Source="v5\i\v5.png" Target="MOStylesheets\v5\i\" Type="ElementFile" />
+    <ProjectItemFile Source="v5\script\v5.js" Target="MOStylesheets\v5\script\" Type="ElementFile" />
   </Files>
 </ProjectItem>
