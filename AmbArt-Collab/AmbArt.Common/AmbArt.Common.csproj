@@ -50,6 +50,9 @@
     <Reference Include="Microsoft.SharePoint.Security" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\AmbArt.Common.SiteCollection\AmbArt.Common.EventReceiver.cs">
+      <DependentUpon>AmbArt.Common.SiteCollection.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +103,14 @@
     <Content Include="SP\Modules\MOPageLayouts\AmbArt.PeopleSearchResults.aspx" />
     <Content Include="SP\Modules\MOPageLayouts\AmbArt.SearchMain.aspx" />
     <Content Include="SP\Modules\MOPageLayouts\AmbArt.SearchResults.aspx" />
+    <Content Include="SP\Modules\MOStylesheets\bootstrap\css\bootstrap-responsive.css" />
+    <Content Include="SP\Modules\MOStylesheets\bootstrap\css\bootstrap-responsive.min.css" />
+    <Content Include="SP\Modules\MOStylesheets\bootstrap\css\bootstrap.css" />
+    <Content Include="SP\Modules\MOStylesheets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="SP\Modules\MOStylesheets\bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="SP\Modules\MOStylesheets\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="SP\Modules\MOStylesheets\bootstrap\js\bootstrap.js" />
+    <Content Include="SP\Modules\MOStylesheets\bootstrap\js\bootstrap.min.js" />
     <Content Include="SP\Modules\MOStylesheets\Brand_Custom.css" />
     <Content Include="SP\Modules\MOStylesheets\DocumentiCorrelati.html" />
     <Content Include="SP\Modules\MOStylesheets\DocumentiCorrelatiPaginaWiki.html" />

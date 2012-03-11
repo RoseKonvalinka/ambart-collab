@@ -12,7 +12,8 @@
 <!DOCTYPE html>
 <html lang="<%$Resources:wss,language_value%>" dir="<%$Resources:wss,multipages_direction_dir_value%>" runat="server" __expr-val-dir="ltr">
 <head runat="server">
-	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0" />
 	<meta http-equiv="Expires" content="0" />
 	<SharePoint:RobotsMetaTag runat="server"/>
@@ -35,6 +36,7 @@
 	
 	<!-- custom style sheets -->
 	<SharePoint:CssRegistration name="/Style Library/v5/v5.css" After="corev4.css" runat="server"/>
+	<SharePoint:CssRegistration name="/Style Library/bootstrap/css/bootstrap.css" After="v5.css" runat="server"/>
 	
 	<SharePoint:SPPageManager runat="server"/>
 	<asp:ContentPlaceHolder id="PlaceHolderAdditionalPageHead" runat="server" />
@@ -197,6 +199,9 @@
 					<div id="s4-statusbarcontainer">
 						<div id="pageStatusBar" class="s4-status-s1"></div>
 					</div>
+				<SharePoint:DelegateControl ControlId="PMIDelegateControls"
+					PrefixHtml="<div'>" SuffixHtml="</div>" AllowMultipleControls="true"
+					runat="server"></SharePoint:DelegateControl>
 					
 				</header>
 				<div id="v5-page">
@@ -254,7 +259,7 @@
 					</div>
 				</div>
 				<footer id="v5-footer" class="s4-notdlg" role="contentinfo">
-					<p><strong>v5</strong> is a responsive HTML5 master page created for SharePoint 2010 by <a href="http://kyleschaeffer.com">Kyle Schaeffer</a>.</p>
+					<address><strong>v5</strong> is a responsive HTML5 master page created for SharePoint 2010 by <a href="http://kyleschaeffer.com">Kyle Schaeffer</a>.</address>
 				</footer>
 			</div>
 			<!-- /v5 wrapper -->

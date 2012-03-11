@@ -14,5 +14,13 @@
     <ProjectItemFile Source="v5\i\search.png" Target="MOStylesheets\v5\i\" Type="ElementFile" />
     <ProjectItemFile Source="v5\i\v5.png" Target="MOStylesheets\v5\i\" Type="ElementFile" />
     <ProjectItemFile Source="v5\script\v5.js" Target="MOStylesheets\v5\script\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap\css\bootstrap-responsive.css" Target="MOStylesheets\bootstrap\css\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap\css\bootstrap-responsive.min.css" Target="MOStylesheets\bootstrap\css\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap\css\bootstrap.css" Target="MOStylesheets\bootstrap\css\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap\css\bootstrap.min.css" Target="MOStylesheets\bootstrap\css\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap\img\glyphicons-halflings-white.png" Target="MOStylesheets\bootstrap\img\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap\img\glyphicons-halflings.png" Target="MOStylesheets\bootstrap\img\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap\js\bootstrap.js" Target="MOStylesheets\bootstrap\js\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap\js\bootstrap.min.js" Target="MOStylesheets\bootstrap\js\" Type="ElementFile" />
   </Files>
 </ProjectItem>

@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Feature xmlns="http://schemas.microsoft.com/sharepoint/" Scope="Site" Id="b4574941-eb48-4843-a417-3119af6f032d">
+  <Properties>
+    <Property Key="overwritemasterpagefile1" Value="AmbArt.v5.master"/>
+  </Properties>
 </Feature>
