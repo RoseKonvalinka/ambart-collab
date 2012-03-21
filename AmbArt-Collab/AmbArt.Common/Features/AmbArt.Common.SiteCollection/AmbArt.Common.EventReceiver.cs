@@ -63,7 +63,8 @@ namespace AmbArt.Common.Features.AmbArt.Common.SiteCollection
                             if (File.Exists(strPathNewMasterPage))
                             {
                                 byte[] fcontents = File.ReadAllBytes(strPathNewMasterPage);
-                                web.Lists["Raccolta pagine master"].RootFolder.Files.Add(strFileName, fcontents, true);
+                                web.GetList("/_catalogs/masterpage/").RootFolder.Files.Add(strFileName, fcontents, true);
+//                                web.Lists["Raccolta pagine master"].RootFolder.Files.Add(strFileName, fcontents, true);
                                 fileMasterpage.Update();
                                 fileMasterpage.CheckIn("checked in by feature");
                                 fileMasterpage.Publish("successfully published by feature");
