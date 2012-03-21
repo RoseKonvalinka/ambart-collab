@@ -13,13 +13,13 @@
 <File Path="v5\i\search.png" Url="v5/i/search.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
 <File Path="v5\i\v5.png" Url="v5/i/v5.png"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
 <File Path="v5\script\v5.js" Url="v5/script/v5.js"  Type="GhostableInLibrary" IgnoreIfAlreadyExists="True" />
-<File Path="bootstrap\css\bootstrap-responsive.css" Url="MOStylesheets/bootstrap/css/bootstrap-responsive.css" />
-<File Path="bootstrap\css\bootstrap-responsive.min.css" Url="MOStylesheets/bootstrap/css/bootstrap-responsive.min.css" />
-<File Path="bootstrap\css\bootstrap.css" Url="MOStylesheets/bootstrap/css/bootstrap.css" />
-<File Path="bootstrap\css\bootstrap.min.css" Url="MOStylesheets/bootstrap/css/bootstrap.min.css" />
-<File Path="bootstrap\img\glyphicons-halflings-white.png" Url="MOStylesheets/bootstrap/img/glyphicons-halflings-white.png" />
-<File Path="bootstrap\img\glyphicons-halflings.png" Url="MOStylesheets/bootstrap/img/glyphicons-halflings.png" />
-<File Path="bootstrap\js\bootstrap.js" Url="MOStylesheets/bootstrap/js/bootstrap.js" />
-<File Path="bootstrap\js\bootstrap.min.js" Url="MOStylesheets/bootstrap/js/bootstrap.min.js" />
+<File Path="bootstrap\css\bootstrap-responsive.css" Url="bootstrap/css/bootstrap-responsive.css" />
+<File Path="bootstrap\css\bootstrap-responsive.min.css" Url="bootstrap/css/bootstrap-responsive.min.css" />
+<File Path="bootstrap\css\bootstrap.css" Url="bootstrap/css/bootstrap.css" />
+<File Path="bootstrap\css\bootstrap.min.css" Url="bootstrap/css/bootstrap.min.css" />
+<File Path="bootstrap\img\glyphicons-halflings-white.png" Url="bootstrap/img/glyphicons-halflings-white.png" />
+<File Path="bootstrap\img\glyphicons-halflings.png" Url="bootstrap/img/glyphicons-halflings.png" />
+<File Path="bootstrap\js\bootstrap.js" Url="bootstrap/js/bootstrap.js" />
+<File Path="bootstrap\js\bootstrap.min.js" Url="bootstrap/js/bootstrap.min.js" />
 </Module>
 </Elements>
